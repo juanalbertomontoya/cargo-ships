@@ -194,7 +194,7 @@ body {
   border: 2px solid #ffffff;
 }
 
-.menu-principal > div > div.logo-menu > img {
+.menu-principal > div > div.logo-menu > a {
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -504,6 +504,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 footer {
   background: #2b2b2b;
+  margin-top: 65px;
 }
 
 footer > div {
@@ -694,7 +695,7 @@ footer > div > .contactenos > p {
 }
 
 @media (max-width: 435px) {
-  .menu-principal > div > div.logo-menu > img {
+  .menu-principal > div > div.logo-menu > a > img {
     width: 45vw;
   }
 }

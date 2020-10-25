@@ -1,0 +1,18 @@
+.slider {
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.bienvenidos > div {
+  display: grid;
+  grid-template-columns: 0.60fr 1.40fr;
+  grid-gap: 50px;
+}
+
+.texto-bienvenidos {
+  background: #ebebeb;
+  padding: 20px;
+}
+
+

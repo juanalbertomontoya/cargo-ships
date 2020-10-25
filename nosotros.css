@@ -1,0 +1,49 @@
+.slider {
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.bienvenidos > div {
+  grid-gap: 15px;
+}
+
+.cuadros-bienvenidos {
+  margin-top: 65px;
+  background: #ebebeb;
+  padding: 25px;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-areas: "objetivos objetivos"
+                       "mision vision";
+}
+
+.objetivos {
+  grid-area: objetivos;
+}
+
+.mision {
+  grid-area: mision;
+}
+
+.vision {
+  grid-area: vision;
+}
+
+.cuadros-bienvenidos h1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.cuadros-bienvenidos > .objetivos > ul {
+  list-style: initial;
+  margin-left: 16px;
+}
+
+
+@media (max-width: 780px) {
+  .cuadros-bienvenidos {
+    display: flex;
+    flex-direction: column;
+  }
+}
