@@ -9,6 +9,8 @@ $(window).scroll(function () {
     $(".boton-info").addClass("scroll");
     $(".boton-lang").addClass("scroll");
     $(".menu-contacto").addClass("scroll");
+    $(".boton-menu-mobile > span").addClass("scroll");
+    $(".menu-principal > div > div > div#boton-esp > a").addClass("scroll");
     $("#logo-menu").attr("src","img/logo.png")
   } else {
     $(".menu-principal").removeClass("scroll");
@@ -18,6 +20,12 @@ $(window).scroll(function () {
     $(".boton-info").removeClass("scroll");
     $(".boton-lang").removeClass("scroll");
     $(".menu-contacto").removeClass("scroll");
-    $("#logo-menu").attr("src","img/logo-white.png")
+    $(".boton-menu-mobile > span").removeClass("scroll");
+    $(".menu-principal > div > div > div#boton-esp > a").removeClass("scroll");
+    $("#logo-menu").attr("src","img/logo-white.png");
   }
+});
+
+$("#boton-menu-mobile").on("click", function () {
+  $(".botones-menu").toggleClass("on");
 });
