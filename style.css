@@ -558,6 +558,11 @@ footer > div > .contactenos > p {
     width: 750px;
   }
 
+  .slider > div > div > .content > .margen-menu {
+    width: 100%;
+    height: calc(18px*4);
+  }
+
   .menu-principal {
     height: calc(18px*4);
   }
